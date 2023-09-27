@@ -1,0 +1,29 @@
+### teste de buscar salas de aulas GET http://localhost:40000/GetAllSalasDeAula HTTP/1.1 content-type: application/json
+
+{
+
+}
+
+### teste de buscar aluno por ID POST http://localhost:40000/GetSalasDeAulaByID HTTP/1.1 content-type: application/json
+
+{
+"salasdeaulaid": 1
+}
+
+### teste de inserção de salas de aulas POST http://localhost:40000/InsertSalasDeAula HTTP/1.1 content-type: application/json
+
+{
+"salasdeaulaid": 1, "descricao": "A2", "localizacao": "Carlos das Matias", "capacidade": 100, "removido": false
+}
+
+### teste de atualização de salas de aulas POST http://localhost:40000/UpdateSalasDeAula HTTP/1.1 content-type: application/json
+
+{
+"salasdeaulaid": 1, "descricao": "B7", "localizacao": "José das Neves", "capacidade": 50, "removido": false
+}
+
+### teste de deletar de salas de aulas POST http://localhost:40000/DeleteSalasDeAula HTTP/1.1 content-type: application/json
+
+{
+"salasdeaulaid": 1
+}
